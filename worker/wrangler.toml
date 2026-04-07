@@ -39,9 +39,9 @@ PREFIX = "tmp"
 # Disable custom email address name, if set true, users cannot input custom email name, will auto generate
 # DISABLE_CUSTOM_ADDRESS_NAME = true
 # IF YOU WANT TO MAKE YOUR SITE PRIVATE, UNCOMMENT THE FOLLOWING LINES
-# PASSWORDS = ["123", "456"]
+PASSWORDS = ["123456"]
 # For admin panel
-# ADMIN_PASSWORDS = ["123", "456"]
+ADMIN_PASSWORDS = ["123456"]
 # warning: no password or user check for admin portal
 # DISABLE_ADMIN_PASSWORD_CHECK = false
 # ADMIN CONTACT, CAN BE ANY STRING
@@ -170,4 +170,5 @@ id = "0b962be4053d4cfd8a157024165ab53a"
 # [[services]]
 # binding = "AUTH_INBOX"
 # service = "auth-inbox"
+
 
